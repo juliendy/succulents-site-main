@@ -1,0 +1,12 @@
+.not-found_container_mobile {
+  margin: 100px 5% 100px 5%;
+}
+
+.not-found_container_big-screen {
+  margin: 100px auto 100px auto;
+  width: 850px;
+}
+
+.not-found {
+  font-size: 16px;
+}

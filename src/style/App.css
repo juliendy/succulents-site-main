@@ -1,0 +1,22 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+/* 
+_mobile: -599px
+_bigger-screen: 600px-
+ */
+
+.App {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  margin: 0px auto;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: #242424;
+}

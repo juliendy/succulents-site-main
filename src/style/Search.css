@@ -1,0 +1,15 @@
+.search_container_mobile {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.search_container_bigger-screen {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.search-button {
+  margin: 15px 0px 0px 0px;
+}

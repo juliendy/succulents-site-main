@@ -1,0 +1,49 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.follow-us-text {
+  font-family: "Roboto", sans-serif;
+  color: #242424;
+  text-align: center;
+  font-size: 21px;
+  padding: 100px 0px 40px 0px;
+}
+
+.image-galley {
+  width: 300px;
+}
+
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  height: 60px !important;
+  width: 24px !important;
+}
+
+.image-gallery-icon:hover {
+  color: #bebebe;
+}
+
+.image-gallery-icon {
+  transition: all 0.1s ease-out;
+  filter: drop-shadow(0 2px 2px #757575);
+}
+
+.footer-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+  padding: 100px 0px 0px 0px;
+}
+
+.footer-credit {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+  padding: 0px 0px 10px 0px;
+  text-align: center;
+  font-size: 12px;
+  margin: 100px 0px 0px 0px;
+}

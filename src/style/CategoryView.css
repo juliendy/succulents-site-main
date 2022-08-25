@@ -1,0 +1,37 @@
+.category-name {
+  color: #242424;
+  text-align: center;
+  font-size: 25px;
+  padding: 100px 5% 0px 5%;
+}
+
+.category-description {
+  color: #242424;
+  text-align: center;
+  font-size: 16px;
+  margin: 30px 5% 30px 5%;
+}
+
+.sort-button_mobile {
+  text-align: right !important;
+  margin: 20px 5% 20px 5% !important;
+  display: block !important;
+}
+
+.sort-button_600-959px {
+  text-align: right !important;
+  margin: 20px 24px !important;
+  display: block !important;
+}
+
+.sort-button_959-1279px {
+  text-align: right !important;
+  margin: 20px 30px !important;
+  display: block !important;
+}
+
+.sort-button_1280-px {
+  text-align: right !important;
+  margin: 20px 35px !important;
+  display: block !important;
+}

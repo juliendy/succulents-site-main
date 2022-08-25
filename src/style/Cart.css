@@ -1,0 +1,116 @@
+.title-in-cart {
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+}
+
+hr {
+  margin: 25px 0px;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+.cart_container_mobile {
+  margin: 100px 5% 200px 5%;
+}
+
+.cart_container_bigger-screen {
+  margin: 100px 30px 100px 30px;
+}
+
+.cart_container_over1280px {
+  margin: 100px 0px 100px 0px;
+  max-width: 1280px;
+}
+
+.product-name-in-cart_mobile {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.product-name-in-cart_bigger-screen {
+  font-size: 16px;
+}
+
+#quantity-select-inside-in-cart_dropDown {
+  padding: 10px;
+}
+
+.quantity-select-title-in-cart_mobile {
+  font-size: 14px;
+  color: #838383;
+  padding-bottom: 5px;
+}
+
+/* Remove arrows in quantity textfield */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.price-in-cart_mobile {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.price-in-cart_bigger-screen {
+  font-size: 16px;
+}
+
+.delete-button-in-cart_mobile {
+  color: #838383 !important;
+  min-width: 0px !important;
+  padding: 5px !important;
+  border-radius: 19px !important;
+  transition: 250ms !important;
+  position: absolute !important;
+  right: 0% !important;
+  bottom: 0% !important;
+}
+
+.delete-button-in-cart_bigger-screen {
+  color: #838383 !important;
+  min-width: 0px !important;
+  border-radius: 19px !important;
+  transition: 250ms !important;
+}
+
+.delete-button-in-cart_mobile:hover,
+.delete-button-in-cart_mobile:active,
+.delete-button-in-cart_bigger-screen:hover,
+.delete-button-in-cart_bigger-screen:active {
+  color: #3d3d3d !important;
+}
+
+.continue-shopping-button {
+  margin: 30px 0px 0px 0px;
+}
+
+.continue-shopping-button-icon {
+  padding-right: 12px;
+  color: #2b2b2b;
+}
+
+.checkout-button {
+  margin: 30px 0px 0px 0px;
+}
+
+.checkout-button-icon {
+  padding-right: 12px;
+  color: #2b2b2b;
+}
+
+.total-in-cart {
+  max-width: 600px;
+  margin: 0px 0px 0px auto;
+}
+
+.total-quantity-in-cart {
+  font-size: 19px;
+}
+
+.sub-total-in-cart {
+  font-size: 19px;
+  margin: 10px 0px 40px 0px;
+}
