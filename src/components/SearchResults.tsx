@@ -9,12 +9,12 @@ type Params = {
 };
 
 export default function SearchResults() {
-  var selectedCategory: any[] = [];
+  let selectedCategory: any[] = [];
 
   const { query } = useParams<Params>();
 
   ProductData.forEach((product) => {
-    var productName = product.name.toLowerCase();
+    let productName = product.name.toLowerCase();
     if (productName.includes(query.toLowerCase())) {
       selectedCategory.push(
         <ProductListPaper

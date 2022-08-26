@@ -11,7 +11,7 @@ type Params = {
 
 export default function CategoryPage() {
   const { categoryName } = useParams<Params>();
-  var selectedCategory: any[] = [];
+  let selectedCategory: any[] = [];
 
   const [sortState, setSortState] = useState<{
     sort: string;

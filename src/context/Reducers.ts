@@ -126,7 +126,7 @@ export const productReducer = (
       ];
       const modifiedProductIndex = [...state].indexOf(modifiedProduct[0]);
       const newValue = action.payload;
-      var updatedQuantity = parseInt(newValue.quantity).toString();
+      let updatedQuantity = parseInt(newValue.quantity).toString();
       [...state][modifiedProductIndex].button = true;
       if (Number.isNaN(parseInt(newValue.quantity))) {
         updatedQuantity = "0";
@@ -258,7 +258,7 @@ export const shoppingCartReducer = (
         parseInt(modifiedProductQuantity2) <= 10 &&
         parseInt(action.payload.quantity) <= 9
       ) {
-        var offset =
+        let offset =
           parseInt(modifiedProductQuantity2) -
           parseInt(action.payload.quantity);
         return state + offset;

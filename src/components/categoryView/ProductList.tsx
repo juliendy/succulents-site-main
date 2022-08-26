@@ -15,7 +15,7 @@ type sortProps = {
 export default function ProductList({ sortState }: sortProps) {
   function FormRow({ sortState }: sortProps) {
     const { categoryName } = useParams<Params>();
-    var selectedProduct: any[] = [];
+    let selectedProduct: any[] = [];
 
     const [sortedProduct, setSortedProduct] = useState<any[]>([]);
 
