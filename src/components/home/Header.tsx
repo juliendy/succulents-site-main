@@ -31,7 +31,7 @@ export default function Header() {
           {!isMobile && (
             <div className="sub-text_bigger-screen">
               Each of them has unique shape, color and personality. Pick up your
-              Cacti.
+            Succulents.
             </div>
           )}
         </div>

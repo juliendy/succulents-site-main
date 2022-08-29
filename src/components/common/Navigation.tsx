@@ -102,7 +102,7 @@ export default function Navigation() {
               <NavLink to="/">
                 Happy
                 <br />
-                Cacti
+                Succulents
               </NavLink>
             </div>
             <Search />
@@ -118,7 +118,7 @@ export default function Navigation() {
           <NavLink to="/">
             Happy
             <br />
-            Cacti
+            Succulents
           </NavLink>
         </div>
         {CategoryData.map((item, index) => (
