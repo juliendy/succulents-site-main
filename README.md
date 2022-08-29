@@ -1,4 +1,4 @@
-# Succulent Garden
+# Succulents / Happy Cacti
 
 - React (hooks)
 - TypeScript
