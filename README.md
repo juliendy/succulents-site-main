@@ -7,4 +7,4 @@
 - Material UI
 
 
-More to come...
+A fully functional e-commerce application with carousel.
